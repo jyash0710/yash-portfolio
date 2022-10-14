@@ -1,0 +1,13 @@
+.app-container {
+  background-color: #d96846;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px 0px;
+}
+.layout-section {
+  background-color: #2f3020;
+  /* margin: 0px 50px; */
+  color: white;
+}
