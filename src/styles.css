@@ -3,3 +3,5 @@
 .slick-next:before {
   display: none;
 }
+
+/* ng deploy --base-href=/yashjain/ */
