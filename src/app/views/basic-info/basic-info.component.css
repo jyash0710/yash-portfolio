@@ -1,0 +1,27 @@
+.basic-info-container {
+    background: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.my-basic-info {
+
+}
+.name-border div, .title-border div, .email-border div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 12px;
+    border: 5px solid #d96846;
+    background: black;
+}
+
+.border-line {
+    width: 1%;
+    height: 40px;
+    background: #d96846;
+    margin: 0px 22px;
+}
+.download-cv-btn {
+    background-color: #d96846;
+}
