@@ -16,6 +16,21 @@ export class SkillsComponent implements OnInit {
     dots: true,
     autoplay: true,
     autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 375,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+      
+    ]
   };
 
   getArray(count: number) {

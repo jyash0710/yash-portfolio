@@ -1,3 +1,7 @@
 .footer-container {
   text-align: center;
+  background-color: black;
+  color: #d96846;
+  padding: 15px;
+  border-radius: 8px;
 }

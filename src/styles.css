@@ -3,5 +3,11 @@
 .slick-next:before {
   display: none;
 }
+.slick-dots li.slick-active button:before {
+  color: #d96846 !important;
+}
 
+.slick-dots li button:before {
+  color: #d96846 !important;
+}
 /* ng deploy --base-href=/yashjain/ */
