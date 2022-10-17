@@ -2,11 +2,15 @@
     background: black;
     border-radius: 8px;
     color: white;
+    margin-bottom: 25px;
 }
 
-.my-basic-info {
-
+.border-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .name-border div, .title-border div, .email-border div {
     width: 20px;
     height: 20px;
@@ -19,6 +23,7 @@
 .border-line {
     width: 1%;
     height: 40px;
+    flex-grow: 1;
     background: #d96846;
     margin: 0px 22px;
 }
