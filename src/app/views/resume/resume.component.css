@@ -36,3 +36,10 @@
     border-radius: 50%;
     border: 3px solid red;
 }
+
+.work-label {
+    padding-top: 10px;
+}
+.work-label-heading {
+    padding-left: 10px;
+}
