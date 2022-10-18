@@ -1,8 +1,11 @@
 .basic-info-container {
-    background: black;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     color: white;
     margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url("../../../assets/images/1.jpg");
 }
 
 .border-section {
@@ -44,24 +47,24 @@
     padding-left: 2rem;
 }
 .developer-name h2 {
-    font-size: 12rem;
+    font-size: 8rem;
     transform: translateY(3.5rem);
    
 }
 
 h2:nth-child(1) {
-    padding-left: 2rem;
+    padding-left: 4rem;
 }
 
 h2:nth-child(2) {
     /* padding-left: 10rem; */
     line-height: 3rem;
     /* margin-top: -3rem; */
-    padding-left: 0.838em;
+    padding-left: 9.4rem;
 }
 .developer-title {
-    font-size: 20px;
-    line-height: 0rem;
+    font-size: 24px;
+    line-height: 1rem;
     color: #d96846;
     margin-top: -1.8rem;
 }
@@ -75,4 +78,31 @@ h2:nth-child(2) {
 }
 .image-part {
     border-radius: 8px;
+}
+.image-part-section {
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.some-detail {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: #d96846;
+}
+
+.some-description {
+    font-size: 18px;
+    padding-right: 4em;
+    padding-top: 24px;
+} 
+
+.filled-circle {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background: royalblue;
+    border-radius: 50%;
+}
+.email-id a{
+    color: #d96846;
 }

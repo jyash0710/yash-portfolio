@@ -1,9 +1,11 @@
 .app-container {
-  background-color: #d96846;
+  background-image: url("../assets/images/background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container {
-  padding: 20px 0px;
+.app-layout {
+  padding: 50px;
 }
 .layout-section {
   /* background-color: #2f3020;
