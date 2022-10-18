@@ -12,10 +12,10 @@ export class SkillsComponent implements OnInit {
   config: Slick.Config = {
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 768,
@@ -26,7 +26,7 @@ export class SkillsComponent implements OnInit {
       {
         breakpoint: 375,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         }
       }
       
