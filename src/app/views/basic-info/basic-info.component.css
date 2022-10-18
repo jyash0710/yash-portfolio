@@ -3,7 +3,7 @@
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -9rem 70%;
+    background-position: -12rem 70%;
     background-image: url("../../../assets/images/1-bg.png");
 }
 
@@ -157,9 +157,6 @@ h2:nth-child(2) {
     .image-part-section {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
-    }
-    .filled-circle-1, .filled-circle-2, .filled-circle-3 {
-        display: none;
     }
     .btn-section {
         text-align: right; 
