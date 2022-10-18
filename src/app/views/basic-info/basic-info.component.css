@@ -1,6 +1,6 @@
 .basic-info-container {
     color: white;
-    background-color: black;
+    background-color: #1f1f1e;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -12rem 70%;
@@ -19,7 +19,7 @@
     border-radius: 50%;
     margin: 12px;
     border: 5px solid #d96846;
-    background: black;
+    background-color: #1f1f1e;
 }
 
 .border-line {
@@ -79,7 +79,6 @@ h2:nth-child(2) {
 .some-detail {
     font-size: 2rem;
     text-decoration: underline;
-    color: #d96846;
 }
 
 .some-description {
@@ -90,7 +89,7 @@ h2:nth-child(2) {
 
 .filled-circle {
     margin: 24px;
-    background: royalblue;
+    background: #797e8f;
     border-radius: 50%;
 }
 
