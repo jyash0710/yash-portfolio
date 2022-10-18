@@ -33,6 +33,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+font-awesome
+(OFL-1.1 AND MIT)
+
 jquery
 MIT
 Copyright OpenJS Foundation and other contributors, https://openjsf.org/
