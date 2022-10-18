@@ -7,24 +7,22 @@
     font-size: 16px;
 }
 .header-container nav{
-        border-radius: 8px 8px 0 0;
-        padding: 0;
-        background-color: black;
+    border-radius: 8px 8px 0 0;
+    padding: 0;
+    background-color: black;
 }
 
 .navbar-toggler {
     border-color: transparent;
 }
+.navbar-toggler-icon {
+    background-color: #d96846;
+}
 
 .navbar-home {
     background: #d96846;
     padding: 13px 12px;
-    border-radius: 8px 0px 0px 8px;
-}
-@media only screen and (min-width: 992px) {
-    .navbar-right {
-        order: 1;
-    }
+    border-radius: 8px 0px 0px 0px;
 }
 
 .navbar-right a {
@@ -35,4 +33,10 @@
     border: 1px solid #d96846;
     /* border-radius: 50%; */
     background-color: black;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-right {
+        order: 1;
+    }
 }

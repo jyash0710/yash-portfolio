@@ -7,7 +7,9 @@
 .app-layout {
   padding: 50px;
 }
-.layout-section {
-  /* background-color: #2f3020;
-  color: white; */
+@media only screen and (max-width: 768px) {
+  .app-layout {
+    padding: 25px;
+  }
 }
+
