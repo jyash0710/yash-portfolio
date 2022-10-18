@@ -1,11 +1,17 @@
 .resume-list {
-    list-style: none;   
+    list-style: none;
+    display: flex;   
 }
 
 .resume-list li {
     flex-basis: 50%;   
 }
 
+@media only screen and (max-width: 767px) {
+    .resume-list {
+        display: block;
+    }
+}
 .resume-section {
     background-color: #1f1f1e;
     color: white;
