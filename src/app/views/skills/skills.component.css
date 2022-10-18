@@ -4,7 +4,9 @@
 }
 
 h3 {
-    color: white;
+    color: #d96846;
+    text-decoration: underline;
+    padding: 5px 5px 20px;
 }
 
 .slick-item {

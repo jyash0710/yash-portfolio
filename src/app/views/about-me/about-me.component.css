@@ -1,8 +1,6 @@
 .about-me-container {
     background-color: black;
     color: white;
-    border-radius: 8px;
-    margin-bottom: 25px;
 }
 .about-me-container h2 {
     color: #d96846;
@@ -12,15 +10,18 @@
 
 .about-me-container p:nth-child(2) {
     margin: 0;
+    font-size: 18px;
     padding: 0 25px;
 }
 
 .about-me-container p:nth-child(3) {
     margin: 0;
+    font-size: 18px;
     padding: 25px;
 }
 
 .about-me-container p:nth-child(4) {
     margin: 0;
+    font-size: 18px;
     padding: 0px 25px 25px;
 }

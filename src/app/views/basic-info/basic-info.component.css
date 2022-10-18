@@ -1,7 +1,5 @@
 .basic-info-container {
-    border-radius: 0 0 8px 8px;
     color: white;
-    margin-bottom: 25px;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +71,7 @@ h2:nth-child(2) {
     border-radius: 8px;
 }
 .image-part-section {
+    display: flex;
     padding-bottom: 3em;
     padding-top: 3em;
 }
@@ -90,22 +89,48 @@ h2:nth-child(2) {
 } 
 
 .filled-circle {
-    width: 50px;
-    height: 50px;
-    margin: auto;
+    margin: 24px;
     background: royalblue;
     border-radius: 50%;
 }
+
+.filled-circle-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.filled-circle-2 {
+    width: 40px;
+    height: 40px;
+}
+
+.filled-circle-3 {
+    width: 30px;
+    height: 30px;
+}
+
+.filled-circle-4 {
+    width: 20px;
+    height: 20px;
+}
+
 .email-id a{
     color: #d96846;
+    font-weight: 500;
+}
+
+.btn-section {
+    text-align: center; 
+    padding: 8px 0 24px;
 }
 
 @media only screen and (max-width: 991px) {
     .developer-section {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         order: 1;
+        padding-top: 2rem;
     }
     .developer-name h2 {
         font-size: 3.5rem;
@@ -133,7 +158,11 @@ h2:nth-child(2) {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
     }
-    .filled-circle {
+    .filled-circle-1, .filled-circle-2, .filled-circle-3 {
         display: none;
+    }
+    .btn-section {
+        text-align: right; 
+        padding: 8px 50px 24px;
     }
 }

@@ -1,14 +1,16 @@
  .resume-section {
     background-color: black;
     color: white;
-    border-radius: 8px 8px 0 0;
  }
 
  .resume-section h3{
     padding: 25px;
+    text-decoration: underline;
+    color: #d96846;
+    margin: 0;
 }
 .work-experience-logo {
-    background: red;
+    background: #d96846;
     display: inline-flex;
     padding: 10px;
     border-radius: 50%;
@@ -22,7 +24,7 @@
 
 .border-line {
     width: 1%;
-    background-color: red;
+    background-color: #d96846;
     flex-grow: 1;
     height: 20px;
     margin-top: 10px;
@@ -34,12 +36,37 @@
     display: flex;
     margin: 12px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 4px solid #d96846;
+}
+
+.work-experience-detail {
+    padding-right: 4em;
 }
 
 .work-label {
     padding-top: 10px;
 }
+
+.work-company {
+    color: #d96846;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.work-time-period {
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
 .work-label-heading {
     padding-left: 10px;
+    font-size: 20px;
+    padding-top: 8px;
+    color: #d96846;
+}
+
+@media only screen and (max-width: 768px) {
+    .work-experience-detail {
+        padding-right: 1em;
+    }
 }
