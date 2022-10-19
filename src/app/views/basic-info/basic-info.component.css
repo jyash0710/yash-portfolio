@@ -162,3 +162,10 @@ h2:nth-child(2) {
         padding: 8px 50px 24px;
     }
 }
+@media only screen and (max-width: 575px) {
+    .filled-circle {
+        margin: 12px;
+        background: #797e8f;
+        border-radius: 50%;
+    }
+}
